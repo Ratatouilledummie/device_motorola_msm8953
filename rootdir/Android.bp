@@ -63,6 +63,13 @@ prebuilt_etc {
     soc_specific: true,
 }
 
+prebuilt_etc {
+    name: "init.msm.usb.configfs.rc",
+    src: "etc/init.msm.usb.configfs.rc",
+    sub_dir: "init/hw",
+    soc_specific: true,
+}
+
 sh_binary {
     name: "init.class_main.sh",
     src: "bin/init.class_main.sh",
